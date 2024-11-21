@@ -45,7 +45,19 @@ nano config.json
 CTRL + c
 ```
 
-**instant start (preconfigured wallet & pool)
+**instant setup
+```
+yes | pkg update -y
+yes | pkg upgrade -y
+yes | pkg install libjansson wget nano -y
+mkdir ccminer && cd ccminer
+wget https://raw.githubusercontent.com/Darktron/pre-compiled/a53/ccminer
+wget https://raw.githubusercontent.com/cdtpft1/ccminer-arm-port.personal/a53/config.json
+wget https://raw.githubusercontent.com/Darktron/pre-compiled/a53/start.sh
+chmod +x ccminer start.sh
+```
+
+**instant setup + start (preconfigured wallet & pool)
 ```
 yes | pkg update -y
 yes | pkg upgrade -y
