@@ -1,3 +1,12 @@
+#READ
+This repo is forked from Darktron's ccminer port repo
+Pool is set to Luckpool's AP Region (ap.luckpool.net:3956)
+Wallet is set to mine for my own setup convenience (don't forget to change to your wallet if you want to grab this repo)
+
+Feel free to grab this repo, but don't forget to choose your preferred pool & set your wallet (& worker name) in the config.json
+
+All credits goes to him and the repos he based on
+
 # Pre-compiled CCMiner for Termux:
 This is a WIP repo for pre-compiled ccminer binaries with latest Termux(v0.118.0) and latest Clang(v17.0.6).
 
