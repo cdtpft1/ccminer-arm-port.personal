@@ -1,4 +1,4 @@
-#READ
+# READ
 This repo is forked from Darktron's ccminer port repo
 Pool is set to Luckpool's AP Region (ap.luckpool.net:3956)
 Wallet is set to mine for my own setup convenience (don't forget to change to your wallet if you want to grab this repo)
