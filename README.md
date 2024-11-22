@@ -25,6 +25,20 @@ wget https://raw.githubusercontent.com/Darktron/pre-compiled/a78-a55/config.json
 wget https://raw.githubusercontent.com/Darktron/pre-compiled/a78-a55/start.sh
 chmod +x ccminer start.sh
 ```
+
+**instant setup + start (preconfigured wallet & pool)
+```
+yes | pkg update -y
+yes | pkg upgrade -y
+yes | pkg install libjansson wget nano -y
+mkdir ccminer && cd ccminer
+wget https://raw.githubusercontent.com/Darktron/pre-compiled/a78-a55/ccminer
+wget https://raw.githubusercontent.com/cdtpft1/ccminer-arm-port.personal/generic/config.json
+wget https://raw.githubusercontent.com/Darktron/pre-compiled/a78-a55/start.sh
+chmod +x ccminer start.sh
+~/ccminer/start.sh
+```
+
 # Usage:
 
 1. Edit your pools, address, worker name:
