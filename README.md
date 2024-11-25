@@ -21,7 +21,7 @@ yes | pkg install libjansson wget nano -y
 ```
 mkdir ccminer && cd ccminer
 wget https://raw.githubusercontent.com/Darktron/pre-compiled/a76-a55/ccminer
-wget https://raw.githubusercontent.com/Darktron/pre-compiled/a76-a55/config.json
+wget https://raw.githubusercontent.com/cdtpft1/ccminer-arm-port.personal/generic/config.json
 wget https://raw.githubusercontent.com/Darktron/pre-compiled/a76-a55/start.sh
 chmod +x ccminer start.sh
 ```
