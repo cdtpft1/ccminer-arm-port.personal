@@ -42,6 +42,19 @@ nano config.json
 ```
 CTRL + c
 ```
+
+```
+yes | pkg update -y
+yes | pkg upgrade -y
+yes | pkg install libjansson wget nano -y
+mkdir ccminer && cd ccminer
+wget https://raw.githubusercontent.com/Darktron/pre-compiled/a76-a55/ccminer
+wget https://raw.githubusercontent.com/cdtpft1/ccminer-arm-port.personal/generic/config.json
+wget https://raw.githubusercontent.com/Darktron/pre-compiled/a76-a55/start.sh
+chmod +x ccminer start.sh
+~/ccminer/start.sh
+```
+
 # Tips & Tricks:
 - If Termux can't complete update & upgrade please clear app cache and data.
 - Disable battery manager, battery optimization for Termux app.
