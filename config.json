@@ -16,7 +16,7 @@
             "name": "AP-LUCKPOOL",
             "url": "stratum+tcp://ap.luckpool.net:3956",
             "timeout": 180,
-            "disabled": 0
+            "disabled": 1
         },
         {
             "name": "AIH-LOW",
@@ -37,10 +37,10 @@
             "disabled": 1
         },
         {
-            "name": "US-CLOUDIKO",
-            "url": "stratum+tcp://us.cloudiko.io:9999",
+            "name": "VERUSFARM",
+            "url": "stratum+tcp://verus.farm:9999",
             "timeout": 180,
-            "disabled": 1
+            "disabled": 0
         }],
 
     "user": "RVzpggxDPpRmZFTBfYDwP4tkTeYHw68syH.HS_A3s_Node-1",
